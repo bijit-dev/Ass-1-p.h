@@ -17,7 +17,7 @@ body{
 a{
     text-decoration: none;
 }
-.donate, .news{
+.pillar, .donate, .news{
     margin: 80px 0;
 }
 /* nav style  */
@@ -91,11 +91,41 @@ header>nav button:hover{
     width: 475px;
 }
 
-/* vision style  */
-.vision{
-    margin-top: 80px;
+/* pillar style */
+.pillar .tittle{
+    font-size: 40px;
+    font-size: 700;
+    color: #0E0E0E;
+    padding-bottom: 32px;
+
 }
 
+.pillar-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pillar-card .card{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.pillar-card .card h2{
+    font-size: 20px;
+    font-size: 700;
+    color: #0E0E0E;
+    padding: 24px 0 12px;
+}
+.pillar-card .card p{
+    font-size: 16px;
+    font-size: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* vision style  */
 .vision-tittle{
     font-size: 40px;
     font-size: 700;
@@ -257,6 +287,7 @@ header>nav button:hover{
     padding: 13px 26px;
     color: #FFFFFF;
     background-color: #006A50;
+    border: none;
 }
 .news-details .news-btn:hover{
     color: #FFFFFF;
