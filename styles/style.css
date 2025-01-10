@@ -236,6 +236,7 @@ header>nav button:hover{
     background-color: #FFFFFF;
     padding: 32px;
     margin-top: 24px;
+    border-radius: 16px;
 }
 .thead{
     display: flex;
