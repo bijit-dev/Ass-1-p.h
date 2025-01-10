@@ -221,6 +221,55 @@ header>nav button:hover{
     color: #0d0d0d99;
 }
 
+/* opninon part style */
+.opinion{
+    padding-top: 80px;
+
+}
+.opinion .tittle{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.table{
+    color: #0E0E0E;
+    background-color: #FFFFFF;
+    padding: 32px;
+    margin-top: 24px;
+}
+.thead{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 24px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.div2 p {
+    width: 81%;
+    padding: 36px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.div2> div {
+    width: 12%;
+    padding: 22px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.agree{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 16px;
+    background-color: rgba(9, 161, 92, 0.15);
+}
+
 /* recent news part style */
 
 .news .tittle{
