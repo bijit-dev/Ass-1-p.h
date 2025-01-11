@@ -20,6 +20,16 @@ a{
 .pillar, .donate, .news{
     margin: 80px 0;
 }
+.bg-primary{
+    background-color: #5490F5;
+}
+.bg-green{
+    background-color: #09A15C;
+}
+.bg-orange{
+    background-color: #FFC239;
+}
+
 /* nav style  */
 nav{
     display: flex;
@@ -45,7 +55,7 @@ header>nav button{
 }
 /* hover  */
 header>nav button:hover{
-
+    
     color: #FFFFFF;
     background: #006A50;
 }
@@ -83,7 +93,7 @@ header>nav button:hover{
     padding: 17px 34px;
 }
 .banner .banner_btn:hover{
-    background-color: #8a3b0a;
+    background-color: #ef6627;
 }
 
 .banner .banner-img{
@@ -187,7 +197,7 @@ header>nav button:hover{
     
 }
 .vision-card .card-btn:hover{
-    color: #8a3b0a;
+    background-color: #ef6627;
     
 }
 
@@ -269,7 +279,11 @@ header>nav button:hover{
     font-weight: 500;
     font-size: 16px;
     padding: 13px 16px;
+    border-radius: 4px;
     background-color: rgba(9, 161, 92, 0.15);
+}
+.agree:hover{
+    background-color: #ef6627;
 }
 
 /* recent news part style */
@@ -342,7 +356,7 @@ header>nav button:hover{
 }
 .news-details .news-btn:hover{
     color: #FFFFFF;
-    background-color: #5490F5;
+    background-color: #ef6627;
 }
 
 /* donate part style  */
@@ -413,8 +427,8 @@ header>nav button:hover{
     translate: -50%;
     
 }
-.done-btn{
-    background-color: #5490F5;    
+.done-btn:hover{
+    background-color: #ef6627;    
 }
 
 .newsletter{
@@ -467,7 +481,7 @@ header>nav button:hover{
     translate: -10%;
 }
 .newsletter form input[type=submit]:hover{
-    background-color: #5490F5;
+    background-color: #ef6627;
 }
 /* footer style  */
 footer{
@@ -482,9 +496,7 @@ footer h1{
     padding: 50px 0 32px;
 }
 
-footer hr{
-    color: rgba(14, 14, 14, 0.1);
-}
+
 footer .logo{
     display: flex;
     gap: 23px;
